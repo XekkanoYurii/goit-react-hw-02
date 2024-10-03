@@ -1,0 +1,36 @@
+.list {
+  position: relative;
+  display: flex;
+  gap: 15px;
+  width: 400px;
+  height: 90px;
+  margin-bottom: 20px;
+  justify-content: center;
+  list-style: none;
+  text-decoration: none;
+}
+
+.button {
+  width: 120px;
+  height: auto;
+  padding: 6px;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: rgba(79, 75, 79, 1);
+  border: 1px solid grey;
+  border-radius: 10px;
+  background-color: aliceblue;
+  box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.2s linear;
+}
+
+.button:hover {
+  background-color: #abcdef;
+}
+
+.reset {
+  position: absolute;
+  bottom: 0;
+}
